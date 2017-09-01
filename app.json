@@ -1,0 +1,20 @@
+{
+  "name": "FarmHandHerokuNew",
+  "scripts": {
+  },
+  "env": {
+    "MAVEN_CUSTOM_OPTS": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/java"
+    }
+  ]
+}

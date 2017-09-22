@@ -10,7 +10,7 @@
   "formation": {
   },
   "addons": [
-    "heroku-postgresql"
+    "heroku-mysql"
   ],
   "buildpacks": [
     {
